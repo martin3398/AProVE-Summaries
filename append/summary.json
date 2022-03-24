@@ -1,0 +1,175 @@
+{
+  "summaries": [
+    {
+      "class": "List",
+      "methods": [
+        {
+          "name": "create",
+          "descriptor": "(I)LList;",
+          "static": "true",
+          "complexity": {
+            "lowerTime": "arg0",
+            "upperTime": "arg0",
+            "lowerSpace": "arg0",
+            "upperSpace": "arg0"
+          },
+          "lowerSize": [
+            {
+              "pos": "ret",
+              "bound": "arg0"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "ret",
+              "bound": "arg0"
+            }
+          ]
+        },
+        {
+          "name": "append",
+          "descriptor": "(LList;LList;)LList;",
+          "static": "true",
+          "cases": [
+            {
+              "predicate": {
+                "type": "null",
+                "var0": "arg0"
+              },
+              "complexity": {
+                "lowerTime": "1",
+                "upperTime": "1",
+                "lowerSpace": "1",
+                "upperSpace": "1"
+              },
+              "throws": ["java.lang.NullPointerException"],
+              "alwaysThrows": "true"
+            },
+            {
+              "predicate": {
+                "type": "cyclic",
+                "var0": "arg0"
+              },
+              "complexity": {
+                "lowerTime": "arg0",
+                "upperTime": "inf",
+                "lowerSpace": "1",
+                "upperSpace": "1"
+              }
+            },
+            {
+              "predicate": {
+                "type": "cyclic",
+                "var0": "arg1"
+              },
+              "modifies": ["arg0"],
+              "complexity": {
+                "lowerTime": "arg0",
+                "upperTime": "arg0",
+                "lowerSpace": "1",
+                "upperSpace": "1"
+              },
+              "lowerSize": [
+                {
+                  "pos": "ret",
+                  "bound": "arg0+arg1"
+                },
+                {
+                  "pos": "arg0",
+                  "bound": "arg0+arg1"
+                }
+              ],
+              "upperSize": [
+                {
+                  "pos": "ret",
+                  "bound": "arg0+arg1"
+                },
+                {
+                  "pos": "arg0",
+                  "bound": "arg0+arg1"
+                }
+              ],
+              "resultingPredicates": {
+                "equals": ["arg0", "ret"],
+                "share": ["arg0", "arg1", "ret"],
+                "cyclic": ["ret", "arg0"],
+                "nonTree": ["ret", "arg0"]
+              }
+            },
+            {
+              "predicate": {
+                "type": "share",
+                "var0": "arg0",
+                "var1": "arg1"
+              },
+              "modifies": ["arg0", "arg1"],
+              "complexity": {
+                "lowerTime": "arg0",
+                "upperTime": "arg0",
+                "lowerSpace": "1",
+                "upperSpace": "1"
+              },
+              "lowerSize": [
+                {
+                  "pos": "ret",
+                  "bound": "arg0+arg1"
+                },
+                {
+                  "pos": "arg0",
+                  "bound": "arg0"
+                }
+              ],
+              "upperSize": [
+                {
+                  "pos": "ret",
+                  "bound": "arg0+arg1"
+                },
+                {
+                  "pos": "arg0",
+                  "bound": "arg0+arg1"
+                }
+              ],
+              "resultingPredicates": {
+                "equals": ["arg0", "ret"],
+                "share": ["arg0", "arg1", "ret"],
+                "cyclic": ["ret", "arg0"],
+                "nonTree": ["ret", "arg0"]
+              }
+            }
+          ],
+          "modifies": ["arg0"],
+          "complexity": {
+            "lowerTime": "arg0",
+            "upperTime": "arg0",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "lowerSize": [
+            {
+              "pos": "ret",
+              "bound": "arg0+arg1"
+            },
+            {
+              "pos": "arg0",
+              "bound": "arg0+arg1"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "ret",
+              "bound": "arg0+arg1"
+            },
+            {
+              "pos": "arg0",
+              "bound": "arg0+arg1"
+            }
+          ],
+          "resultingPredicates": {
+            "equals": ["arg0", "ret"],
+            "share": ["arg0", "arg1", "ret"]
+          }
+        }
+      ]
+    }
+  ]
+}
