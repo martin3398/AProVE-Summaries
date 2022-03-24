@@ -1,0 +1,20 @@
+{
+  "summaries": [
+    {
+      "class": "simple.even.Even",
+      "methods": [
+        {
+          "name": "even",
+          "descriptor": "(I)Z",
+          "static": "true",
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "inf",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+        }
+      ]
+    }
+  ]
+}

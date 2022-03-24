@@ -1,0 +1,20 @@
+{
+  "summaries": [
+    {
+      "class": "simple.mirrorIntervSim.MirrorIntervSim",
+      "methods": [
+        {
+          "name": "loop",
+          "descriptor": "(I)V",
+          "static": "true",
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "inf",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+        }
+      ]
+    }
+  ]
+}

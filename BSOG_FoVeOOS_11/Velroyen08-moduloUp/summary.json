@@ -1,0 +1,20 @@
+{
+  "summaries": [
+    {
+      "class": "simple.moduloUp.ModuloUp",
+      "methods": [
+        {
+          "name": "up",
+          "descriptor": "(I)V",
+          "static": "true",
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "inf",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+        }
+      ]
+    }
+  ]
+}

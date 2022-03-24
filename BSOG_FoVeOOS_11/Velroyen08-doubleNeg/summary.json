@@ -1,0 +1,20 @@
+{
+  "summaries": [
+    {
+      "class": "simple.doubleNeg.DoubleNeg",
+      "methods": [
+        {
+          "name": "loop",
+          "descriptor": "(II)V",
+          "static": "true",
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "inf",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+        }
+      ]
+    }
+  ]
+}

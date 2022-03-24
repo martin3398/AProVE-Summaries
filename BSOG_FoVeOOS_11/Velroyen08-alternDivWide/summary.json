@@ -1,0 +1,48 @@
+{
+  "summaries": [
+    {
+      "class": "simple.alternDivWide.AlternDivWide",
+      "methods": [
+        {
+          "name": "loop",
+          "descriptor": "(I)V",
+          "static": "true",
+          "cases": [
+            {
+              "predicate": {
+                "type": ">",
+                "var0": "arg0",
+                "var1": "5"
+              },
+              "complexity": {
+                "lowerTime": "1",
+                "upperTime": "inf",
+                "lowerSpace": "1",
+                "upperSpace": "1"
+              }
+            },
+            {
+              "predicate": {
+                "type": "<",
+                "var0": "arg0",
+                "var1": "-5"
+              },
+              "complexity": {
+                "lowerTime": "1",
+                "upperTime": "inf",
+                "lowerSpace": "1",
+                "upperSpace": "1"
+              }
+            }
+          ],
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "inf",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          }
+        }
+      ]
+    }
+  ]
+}

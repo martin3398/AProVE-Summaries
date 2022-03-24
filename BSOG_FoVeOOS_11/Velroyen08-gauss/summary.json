@@ -1,0 +1,20 @@
+{
+  "summaries": [
+    {
+      "class": "simple.gauss.Gauss",
+      "methods": [
+        {
+          "name": "sum",
+          "descriptor": "(I)I",
+          "static": "true",
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "inf",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+        }
+      ]
+    }
+  ]
+}
