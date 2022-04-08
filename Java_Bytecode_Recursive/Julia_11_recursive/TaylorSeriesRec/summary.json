@@ -1,0 +1,64 @@
+{
+  "summaries": [
+    {
+      "class": "TaylorSeriesRec",
+      "methods": [
+        {
+          "name": "fact",
+          "descriptor": "(I)I",
+          "static": "true",
+          "complexity": {
+            "lowerTime": "arg0",
+            "upperTime": "arg0",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          }
+        },
+        {
+          "name": "power",
+          "descriptor": "(I)I",
+          "static": "true",
+          "complexity": {
+            "lowerTime": "arg0",
+            "upperTime": "arg0",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          }
+        },
+        {
+          "name": "sin",
+          "descriptor": "(II)I",
+          "static": "true",
+          "complexity": {
+            "lowerTime": "arg1^2",
+            "upperTime": "arg1^2",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          }
+        },
+        {
+          "name": "cos",
+          "descriptor": "(II)I",
+          "static": "true",
+          "complexity": {
+            "lowerTime": "arg1^2",
+            "upperTime": "arg1^2",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          }
+        },
+        {
+          "name": "exp",
+          "descriptor": "(II)I",
+          "static": "true",
+          "complexity": {
+            "lowerTime": "arg1^2",
+            "upperTime": "arg1^2",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          }
+        }
+      ]
+    }
+  ]
+}

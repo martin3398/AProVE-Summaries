@@ -1,0 +1,112 @@
+{
+  "summaries": [
+    {
+      "class": "ListInt",
+      "methods": [
+        {
+          "name": "alternate",
+          "descriptor": "(LListInt;)LListInt;",
+          "static": "false",
+          "complexity": {
+            "lowerTime": "arg0 + this",
+            "upperTime": "arg0 + this",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "lowerSize": [
+            {
+              "pos": "ret",
+              "bound": "arg0 + this"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "ret",
+              "bound": "arg0 + this"
+            }
+          ]
+        },
+        {
+          "name": "append",
+          "descriptor": "(LListInt;)LListInt;",
+          "static": "false",
+          "complexity": {
+            "lowerTime": "arg0 + this",
+            "upperTime": "arg0 + this",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "lowerSize": [
+            {
+              "pos": "ret",
+              "bound": "arg0 + this"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "ret",
+              "bound": "arg0 + this"
+            }
+          ]
+        },
+        {
+          "name": "iter",
+          "descriptor": "()V",
+          "static": "false",
+          "complexity": {
+            "lowerTime": "this",
+            "upperTime": "this",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          }
+        },
+        {
+          "name": "reverseAcc",
+          "descriptor": "(LListInt;)LListInt;",
+          "static": "false",
+          "complexity": {
+            "lowerTime": "arg0 + this",
+            "upperTime": "arg0 + this",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "lowerSize": [
+            {
+              "pos": "ret",
+              "bound": "arg0 + this"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "ret",
+              "bound": "arg0 + this"
+            }
+          ]
+        },
+        {
+          "name": "reverse",
+          "descriptor": "()LListInt;",
+          "static": "false",
+          "complexity": {
+            "lowerTime": "this",
+            "upperTime": "this",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "lowerSize": [
+            {
+              "pos": "ret",
+              "bound": "this"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "ret",
+              "bound": "this"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

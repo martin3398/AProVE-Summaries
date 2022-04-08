@@ -1,0 +1,31 @@
+{
+  "summaries": [
+    {
+      "class": "FactSum",
+      "methods": [
+        {
+          "name": "factorial",
+          "descriptor": "(I)I",
+          "static": "true",
+          "complexity": {
+            "lowerTime": "arg0",
+            "upperTime": "arg0",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          }
+        },
+        {
+          "name": "doSum",
+          "descriptor": "(I)I",
+          "static": "true",
+          "complexity": {
+            "lowerTime": "arg0^2",
+            "upperTime": "arg0^2",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          }
+        }
+      ]
+    }
+  ]
+}

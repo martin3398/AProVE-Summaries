@@ -1,0 +1,89 @@
+{
+  "summaries": [
+    {
+      "class": "SharingAnalysisRec.SharingAnalysisRec",
+      "methods": [
+        {
+          "name": "appendNewList",
+          "descriptor": "(I)LSharingAnalysisRec/SharingAnalysisRec;",
+          "static": "false",
+          "modifies": ["this"],
+          "complexity": {
+            "lowerTime": "arg0",
+            "upperTime": "arg0",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "resultingPredicates": {
+            "join": [
+              ["this", "ret"]
+            ]
+          },
+          "upperSize": [
+            {
+              "pos": "this",
+              "bound": "arg0"
+            },
+            {
+              "pos": "ret",
+              "bound": "1"
+            }
+          ],
+          "lowerSize": [
+            {
+              "pos": "this",
+              "bound": "arg0"
+            },
+            {
+              "pos": "ret",
+              "bound": "1"
+            }
+          ],
+          "removedPredicates": {
+            "cyclic": {
+              "this": ["SharingAnalysisRec.SharingAnalysisRec.field"]
+            }
+          }
+        },
+        {
+          "name": "copy",
+          "descriptor": "(LSharingAnalysisRec/SharingAnalysisRec;LSharingAnalysisRec/SharingAnalysisRec;)V",
+          "static": "true",
+          "cases": [
+            {
+              "predicate": {
+                "type": "cyclic",
+                "var0": "arg0"
+              },
+              "complexity": {
+                "lowerTime": "arg0",
+                "upperTime": "inf",
+                "lowerSpace": "1",
+                "upperSpace": "1"
+              }
+            }
+          ],
+          "modifies": ["arg1"],
+          "complexity": {
+            "lowerTime": "arg0",
+            "upperTime": "arg0",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "upperSize": [
+            {
+              "pos": "arg1",
+              "bound": "arg0"
+            }
+          ],
+          "lowerSize": [
+            {
+              "pos": "arg1",
+              "bound": "arg0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

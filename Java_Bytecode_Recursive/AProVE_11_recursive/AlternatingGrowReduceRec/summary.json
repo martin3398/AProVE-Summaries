@@ -1,0 +1,57 @@
+{
+  "summaries": [
+    {
+      "class": "AlternatingGrowReduceRec.AlternatingGrowReduceRec",
+      "methods": [
+        {
+          "name": "createList",
+          "descriptor": "(I)LAlternatingGrowReduceRec/AlternatingGrowReduceRec;",
+          "static": "true",
+          "complexity": {
+            "lowerTime": "arg0",
+            "upperTime": "arg0",
+            "lowerSpace": "arg0",
+            "upperSpace": "arg0"
+          },
+          "lowerSize": [
+            {
+              "pos": "ret",
+              "bound": "arg0"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "ret",
+              "bound": "arg0"
+            }
+          ]
+        },
+        {
+          "name": "growReduce",
+          "descriptor": "(ILAlternatingGrowReduceRec/AlternatingGrowReduceRec;)V",
+          "static": "true",
+          "cases": [
+            {
+              "predicate": {
+                "type": "cyclic",
+                "var0": "arg1"
+              },
+              "complexity": {
+                "lowerTime": "1",
+                "upperTime": "inf",
+                "lowerSpace": "1",
+                "upperSpace": "1"
+              }
+            }
+          ],
+          "complexity": {
+            "lowerTime": "arg1",
+            "upperTime": "arg1",
+            "lowerSpace": "arg1",
+            "upperSpace": "arg1"
+          }
+        }
+      ]
+    }
+  ]
+}

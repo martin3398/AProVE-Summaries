@@ -1,0 +1,20 @@
+{
+  "summaries": [
+    {
+      "class": "sort",
+      "methods": [
+        {
+          "name": "sort",
+          "descriptor": "([I)V",
+          "static": "true",
+          "complexity": {
+            "lowerTime": "arg0^2",
+            "upperTime": "arg0^2",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "summaries": [
+    {
+      "class": "Queen",
+      "methods": [
+        {
+          "name": "search",
+          "descriptor": "(I)Z",
+          "static": "true",
+          "complexity": {
+            "lowerTime": "env^2",
+            "upperTime": "env^2",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          }
+        }
+      ]
+    }
+  ]
+}

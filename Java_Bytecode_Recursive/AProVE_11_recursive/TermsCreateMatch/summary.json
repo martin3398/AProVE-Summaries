@@ -1,0 +1,43 @@
+{
+  "summaries": [
+    {
+      "class": "Terms.Term",
+      "methods": [
+        {
+          "name": "create",
+          "descriptor": "(I)LTerms/Term;",
+          "static": "true",
+          "complexity": {
+            "lowerTime": "arg0",
+            "upperTime": "arg0",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "upperSize": [
+            {
+              "pos": "ret",
+              "bound": "arg0"
+            }
+          ],
+          "lowerSize": [
+            {
+              "pos": "ret",
+              "bound": "arg0"
+            }
+          ]
+        },
+        {
+          "name": "matches",
+          "descriptor": "(LTerms/Term;)Z",
+          "static": "false",
+          "complexity": {
+            "lowerTime": "this",
+            "upperTime": "this",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          }
+        }
+      ]
+    }
+  ]
+}

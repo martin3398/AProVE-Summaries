@@ -1,0 +1,57 @@
+{
+  "summaries": [
+    {
+      "class": "RotateTree.Tree",
+      "methods": [
+        {
+          "name": "rotateEachNode",
+          "descriptor": "(LRotateTree/Tree;)LRotateTree/Tree;",
+          "static": "true",
+          "cases": [
+            {
+              "predicate": {
+                "type": "cyclic",
+                "var0": "arg0"
+              },
+              "complexity": {
+                "lowerTime": "1",
+                "upperTime": "inf",
+                "lowerSpace": "1",
+                "upperSpace": "1"
+              }
+            }
+          ],
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "arg0",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          }
+        },
+        {
+          "name": "createTree",
+          "descriptor": "(I)LRotateTree/Tree;",
+          "static": "true",
+          "complexity": {
+            "lowerTime": "arg0",
+            "upperTime": "arg0",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "lowerSize": [
+            {
+              "pos": "ret",
+              "bound": "arg0"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "ret",
+              "bound": "arg0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

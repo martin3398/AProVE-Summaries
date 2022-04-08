@@ -1,0 +1,20 @@
+{
+  "summaries": [
+    {
+      "class": "TestJulia7",
+      "methods": [
+        {
+          "name": "iter",
+          "descriptor": "()V",
+          "static": "false",
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "inf",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "summaries": [
+    {
+      "class": "Factorial",
+      "methods": [
+        {
+          "name": "factorial",
+          "descriptor": "(I)I",
+          "static": "true",
+          "complexity": {
+            "lowerTime": "arg0",
+            "upperTime": "arg0",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          }
+        }
+      ]
+    }
+  ]
+}

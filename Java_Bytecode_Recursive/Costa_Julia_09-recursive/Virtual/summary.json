@@ -1,0 +1,52 @@
+{
+  "summaries": [
+    {
+      "class": "Internal",
+      "methods": [
+        {
+          "name": "length",
+          "descriptor": "()I",
+          "static": "false",
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "this",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          }
+        }
+      ]
+    },
+    {
+      "class": "Node",
+      "methods": [
+        {
+          "name": "length",
+          "descriptor": "()I",
+          "static": "false",
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "this",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          }
+        }
+      ]
+    },
+    {
+      "class": "Nil",
+      "methods": [
+        {
+          "name": "length",
+          "descriptor": "()I",
+          "static": "false",
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "this",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "summaries": [
+    {
+      "class": "BinarySearchTree",
+      "methods": [
+        {
+          "name": "copy",
+          "descriptor": "()LBinarySearchTree;",
+          "static": "false",
+          "complexity": {
+            "lowerTime": "this",
+            "upperTime": "this",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "lowerSize": [
+            {
+              "pos": "ret",
+              "bound": "this"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "ret",
+              "bound": "this"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

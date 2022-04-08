@@ -1,0 +1,55 @@
+{
+  "summaries": [
+    {
+      "class": "PartitionList",
+      "methods": [
+        {
+          "name": "sublistAutoDual",
+          "descriptor": "()LPartitionList;",
+          "static": "false",
+          "complexity": {
+            "lowerTime": "this^3",
+            "upperTime": "this^3",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "lowerSize": [
+            {
+              "pos": "ret",
+              "bound": "this"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "ret",
+              "bound": "this"
+            }
+          ]
+        },
+        {
+          "name": "sublistAutoDual",
+          "descriptor": "()LPartitionList;",
+          "static": "false",
+          "complexity": {
+            "lowerTime": "this^2",
+            "upperTime": "this^2",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "lowerSize": [
+            {
+              "pos": "ret",
+              "bound": "this"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "ret",
+              "bound": "this"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

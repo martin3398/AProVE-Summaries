@@ -1,0 +1,58 @@
+{
+  "summaries": [
+    {
+      "class": "Terms.Term",
+      "methods": [
+        {
+          "name": "create",
+          "descriptor": "(I)LTerms/Term;",
+          "static": "true",
+          "complexity": {
+            "lowerTime": "arg0",
+            "upperTime": "arg0",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "upperSize": [
+            {
+              "pos": "ret",
+              "bound": "arg0"
+            }
+          ],
+          "lowerSize": [
+            {
+              "pos": "ret",
+              "bound": "arg0"
+            }
+          ]
+        },
+        {
+          "name": "getVariables",
+          "descriptor": "()LTerms/List;",
+          "static": "false",
+          "complexity": {
+            "lowerTime": "this",
+            "upperTime": "this",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "upperSize": [
+            {
+              "pos": "ret",
+              "bound": "this"
+            }
+          ],
+          "lowerSize": [
+            {
+              "pos": "ret",
+              "bound": "this"
+            }
+          ],
+          "resultingPredicates": {
+            "join": [["ret", "this"]]
+          }
+        }
+      ]
+    }
+  ]
+}

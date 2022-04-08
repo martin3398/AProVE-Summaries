@@ -1,0 +1,20 @@
+{
+  "summaries": [
+    {
+      "class": "BTreeR",
+      "methods": [
+        {
+          "name": "height",
+          "descriptor": "()I",
+          "static": "false",
+          "complexity": {
+            "lowerTime": "this",
+            "upperTime": "this",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          }
+        }
+      ]
+    }
+  ]
+}

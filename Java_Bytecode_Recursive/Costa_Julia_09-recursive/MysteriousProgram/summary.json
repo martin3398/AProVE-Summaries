@@ -1,0 +1,65 @@
+{
+  "summaries": [
+    {
+      "class": "MysteriousProgram",
+      "methods": [
+        {
+          "name": "init",
+          "descriptor": "([I)V",
+          "static": "true",
+          "complexity": {
+            "lowerTime": "arg0",
+            "upperTime": "arg0",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "lowerSize": [
+            {
+              "pos": "ret",
+              "bound": "arg0"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "ret",
+              "bound": "arg0"
+            }
+          ]
+        },
+        {
+          "name": "swap2",
+          "descriptor": "(II)V",
+          "static": "true",
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "1",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          }
+        },
+        {
+          "name": "mysteriousRecursive",
+          "descriptor": "([II)V",
+          "static": "true",
+          "complexity": {
+            "lowerTime": "arg0^2",
+            "upperTime": "arg0^2",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          }
+        },
+        {
+          "name": "mysterious",
+          "descriptor": "([II)V",
+          "static": "true",
+          "complexity": {
+            "lowerTime": "arg0",
+            "upperTime": "arg0",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          }
+        }
+      ]
+    }
+  ]
+}
