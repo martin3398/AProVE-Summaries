@@ -1,0 +1,30 @@
+{
+  "summaries": [
+    {
+      "class": "List3",
+      "methods": [
+        {
+          "name": "iterate",
+          "descriptor": "()V",
+          "static": "false",
+          "cases": [
+            {
+              "predicate": {
+                "type": "cyclic",
+                "var0": "this"
+              },
+              "complexity": {
+                "lowerTime": "1",
+                "upperTime": "this",
+                "lowerSpace": "1",
+                "upperSpace": "1"
+              }
+            }
+          ],
+          "throws": ["java.lang.NullPointerException"],
+          "alwaysThrows": "true"
+        }
+      ]
+    }
+  ]
+}

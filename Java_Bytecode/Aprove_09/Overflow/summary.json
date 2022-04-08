@@ -1,0 +1,18 @@
+{
+  "summaries": [
+    {
+      "class": "Overflow",
+      "methods": [
+        {
+          "name": "overflow",
+          "descriptor": "(I)V",
+          "static": "true",
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "inf"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "summaries": [
+    {
+      "class": "IntList",
+      "methods": [
+        {
+          "name": "member",
+          "descriptor": "(ILIntList;)Z",
+          "static": "true",
+          "complexity": {
+            "lowerTime": "arg0",
+            "upperTime": "arg0",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          }
+        },
+        {
+          "name": "sort",
+          "descriptor": "(ILIntList;)LIntList;",
+          "static": "true",
+          "complexity": {
+            "lowerTime": "arg0",
+            "upperTime": "arg0*arg0",
+            "lowerSpace": "arg0",
+            "upperSpace": "arg0"
+          }
+        }
+      ]
+    }
+  ]
+}

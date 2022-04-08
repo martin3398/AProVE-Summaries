@@ -1,0 +1,887 @@
+{
+  "summaries": [
+    {
+      "class": "javaUtilEx.AbstractCollection",
+      "methods": [
+        {
+          "name": "addAll",
+          "descriptor": "(LjavaUtilEx/Collection;)Z",
+          "static": "false",
+          "modifies": ["this"],
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "arg0",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "lowerSize": [
+            {
+              "pos": "this",
+              "bound": "this + arg0"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "this",
+              "bound": "this + arg0"
+            }
+          ]
+        },
+        {
+          "name": "containsAll",
+          "descriptor": "(LjavaUtilEx/Collection;)Z",
+          "static": "false",
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "this * arg0",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          }
+        },
+        {
+          "name": "isEmpty",
+          "descriptor": "()Z",
+          "static": "false",
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "1",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          }
+        },
+        {
+          "name": "removeAll",
+          "descriptor": "(LjavaUtilEx/Collection;)Z",
+          "static": "false",
+          "modifies": ["this"],
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "arg0 * this",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "lowerSize": [
+            {
+              "pos": "this",
+              "bound": "this - arg0"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "this",
+              "bound": "this"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "javaUtilEx.AbstractList",
+      "methods": [
+        {
+          "name": "equals",
+          "descriptor": "(Ljava/lang/Object;)Z",
+          "static": "false",
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "arg0 + this",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          }
+        },
+        {
+          "name": "hashCode",
+          "descriptor": "()I",
+          "static": "false",
+          "complexity": {
+            "lowerTime": "this",
+            "upperTime": "this",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          }
+        },
+        {
+          "name": "removeRange",
+          "descriptor": "(II)V",
+          "static": "false",
+          "modifies": ["this"],
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "arg1 + arg0",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "lowerSize": [
+            {
+              "pos": "this",
+              "bound": "1"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "this",
+              "bound": "this"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "javaUtilEx.AbstractSequentialList",
+      "methods": [
+        {
+          "name": "addAll",
+          "descriptor": "(ILjavaUtilEx/Collection;)Z",
+          "static": "false",
+          "modifies": ["this"],
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "arg0 + arg1",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "lowerSize": [
+            {
+              "pos": "this",
+              "bound": "this + arg1"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "this",
+              "bound": "this + arg1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "javaUtilEx.LinkedList",
+      "methods": [
+        {
+          "name": "addFirst",
+          "descriptor": "(Ljava/lang/Object;)V",
+          "static": "false",
+          "modifies": ["this"],
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "1",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "lowerSize": [
+            {
+              "pos": "this",
+              "bound": "this + arg0"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "this",
+              "bound": "this + arg0"
+            }
+          ]
+        },
+        {
+          "name": "addLast",
+          "descriptor": "(Ljava/lang/Object;)V",
+          "static": "false",
+          "modifies": ["this"],
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "1",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "lowerSize": [
+            {
+              "pos": "this",
+              "bound": "this + arg0"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "this",
+              "bound": "this + arg0"
+            }
+          ]
+        },
+        {
+          "name": "add",
+          "descriptor": "(Ljava/lang/Object;)Z",
+          "static": "false",
+          "modifies": ["this"],
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "1",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "lowerSize": [
+            {
+              "pos": "this",
+              "bound": "this + arg0"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "this",
+              "bound": "this + arg0"
+            }
+          ]
+        },
+        {
+          "name": "add",
+          "descriptor": "(ILjava/lang/Object;)V",
+          "static": "false",
+          "modifies": ["this"],
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "arg0",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "lowerSize": [
+            {
+              "pos": "this",
+              "bound": "this + arg1"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "this",
+              "bound": "this + arg1"
+            }
+          ]
+        },
+        {
+          "name": "clear",
+          "descriptor": "()V",
+          "static": "false",
+          "modifies": ["this"],
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "this",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "lowerSize": [
+            {
+              "pos": "this",
+              "bound": "1"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "this",
+              "bound": "this"
+            }
+          ]
+        },
+        {
+          "name": "contains",
+          "descriptor": "(Ljava/lang/Object;)Z",
+          "static": "false",
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "this",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          }
+        },
+        {
+          "name": "element",
+          "descriptor": "()Ljava/lang/Object;",
+          "static": "false",
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "1",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "resultingPredicates": {
+            "join": [["this", "ret"]]
+          },
+          "lowerSize": [
+            {
+              "pos": "ret",
+              "bound": "1"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "ret",
+              "bound": "this"
+            }
+          ]
+        },
+        {
+          "name": "get",
+          "descriptor": "(I)Ljava/lang/Object;",
+          "static": "false",
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "arg0",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "resultingPredicates": {
+            "join": [["this", "ret"]]
+          },
+          "lowerSize": [
+            {
+              "pos": "ret",
+              "bound": "1"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "ret",
+              "bound": "this"
+            }
+          ]
+        },
+        {
+          "name": "getFirst",
+          "descriptor": "()Ljava/lang/Object;",
+          "static": "false",
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "1",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "resultingPredicates": {
+            "join": [["this", "ret"]]
+          },
+          "lowerSize": [
+            {
+              "pos": "ret",
+              "bound": "1"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "ret",
+              "bound": "this"
+            }
+          ]
+        },
+        {
+          "name": "getLast",
+          "descriptor": "()Ljava/lang/Object;",
+          "static": "false",
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "1",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "resultingPredicates": {
+            "join": [["this", "ret"]]
+          },
+          "lowerSize": [
+            {
+              "pos": "ret",
+              "bound": "1"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "ret",
+              "bound": "this"
+            }
+          ]
+        },
+        {
+          "name": "indexOf",
+          "descriptor": "(Ljava/lang/Object;)I",
+          "static": "false",
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "this",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          }
+        },
+        {
+          "name": "lastIndexOf",
+          "descriptor": "(Ljava/lang/Object;)I",
+          "static": "false",
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "this",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          }
+        },
+        {
+          "name": "offer",
+          "descriptor": "(Ljava/lang/Object;)Z",
+          "static": "false",
+          "modifies": ["this"],
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "1",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "lowerSize": [
+            {
+              "pos": "this",
+              "bound": "this + arg0"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "this",
+              "bound": "this + arg0"
+            }
+          ]
+        },
+        {
+          "name": "offerFirst",
+          "descriptor": "(Ljava/lang/Object;)Z",
+          "static": "false",
+          "modifies": ["this"],
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "1",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "lowerSize": [
+            {
+              "pos": "this",
+              "bound": "this + arg0"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "this",
+              "bound": "this + arg0"
+            }
+          ]
+        },
+        {
+          "name": "offerLast",
+          "descriptor": "(Ljava/lang/Object;)Z",
+          "static": "false",
+          "modifies": ["this"],
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "1",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "lowerSize": [
+            {
+              "pos": "this",
+              "bound": "this + arg0"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "this",
+              "bound": "this + arg0"
+            }
+          ]
+        },
+        {
+          "name": "peek",
+          "descriptor": "()Ljava/lang/Object;",
+          "static": "false",
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "1",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "resultingPredicates": {
+            "join": [["this", "ret"]]
+          },
+          "lowerSize": [
+            {
+              "pos": "ret",
+              "bound": "0"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "ret",
+              "bound": "this"
+            }
+          ]
+        },
+        {
+          "name": "peekFirst",
+          "descriptor": "()Ljava/lang/Object;",
+          "static": "false",
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "1",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "resultingPredicates": {
+            "join": [["this", "ret"]]
+          },
+          "lowerSize": [
+            {
+              "pos": "ret",
+              "bound": "0"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "ret",
+              "bound": "this"
+            }
+          ]
+        },
+        {
+          "name": "peekLast",
+          "descriptor": "()Ljava/lang/Object;",
+          "static": "false",
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "1",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "resultingPredicates": {
+            "join": [["this", "ret"]]
+          },
+          "lowerSize": [
+            {
+              "pos": "ret",
+              "bound": "0"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "ret",
+              "bound": "this"
+            }
+          ]
+        },
+        {
+          "name": "poll",
+          "descriptor": "()Ljava/lang/Object;",
+          "static": "false",
+          "modifies": ["this"],
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "1",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "resultingPredicates": {
+            "join": [["this", "ret"]]
+          },
+          "lowerSize": [
+            {
+              "pos": "ret",
+              "bound": "0"
+            },
+            {
+              "pos": "this",
+              "bound": "this"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "ret",
+              "bound": "this"
+            },
+            {
+              "pos": "this",
+              "bound": "this - ret"
+            }
+          ]
+        },
+        {
+          "name": "pollFirst",
+          "descriptor": "()Ljava/lang/Object;",
+          "static": "false",
+          "modifies": ["this"],
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "1",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "resultingPredicates": {
+            "join": [["this", "ret"]]
+          },
+          "lowerSize": [
+            {
+              "pos": "ret",
+              "bound": "0"
+            },
+            {
+              "pos": "this",
+              "bound": "this"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "ret",
+              "bound": "this"
+            },
+            {
+              "pos": "this",
+              "bound": "this - ret"
+            }
+          ]
+        },
+        {
+          "name": "pollLast",
+          "descriptor": "()Ljava/lang/Object;",
+          "static": "false",
+          "modifies": ["this"],
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "1",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "resultingPredicates": {
+            "join": [["this", "ret"]]
+          },
+          "lowerSize": [
+            {
+              "pos": "ret",
+              "bound": "0"
+            },
+            {
+              "pos": "this",
+              "bound": "this"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "ret",
+              "bound": "this"
+            },
+            {
+              "pos": "this",
+              "bound": "this - ret"
+            }
+          ]
+        },
+        {
+          "name": "pop",
+          "descriptor": "()Ljava/lang/Object;",
+          "static": "false",
+          "modifies": ["this"],
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "1",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "resultingPredicates": {
+            "join": [["this", "ret"]]
+          },
+          "lowerSize": [
+            {
+              "pos": "ret",
+              "bound": "0"
+            },
+            {
+              "pos": "this",
+              "bound": "this"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "ret",
+              "bound": "this"
+            },
+            {
+              "pos": "this",
+              "bound": "this - ret"
+            }
+          ]
+        },
+        {
+          "name": "push",
+          "descriptor": "(Ljava/lang/Object;)V",
+          "static": "false",
+          "modifies": ["this"],
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "1",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "lowerSize": [
+            {
+              "pos": "this",
+              "bound": "this + arg0"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "this",
+              "bound": "this + arg0"
+            }
+          ]
+        },
+        {
+          "name": "remove",
+          "descriptor": "(I)Ljava/lang/Object;",
+          "static": "false",
+          "modifies": ["this"],
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "arg0",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "lowerSize": [
+            {
+              "pos": "ret",
+              "bound": "0"
+            },
+            {
+              "pos": "this",
+              "bound": "1"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "ret",
+              "bound": "this"
+            },
+            {
+              "pos": "this",
+              "bound": "this"
+            }
+          ]
+        },
+        {
+          "name": "remove",
+          "descriptor": "(Ljava/lang/Object;)Z",
+          "static": "false",
+          "modifies": ["this"],
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "this",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "lowerSize": [
+            {
+              "pos": "this",
+              "bound": "this - arg0"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "this",
+              "bound": "this"
+            }
+          ]
+        },
+        {
+          "name": "removeFirst",
+          "descriptor": "()Ljava/lang/Object;",
+          "static": "false",
+          "modifies": ["this"],
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "1",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "lowerSize": [
+            {
+              "pos": "this",
+              "bound": "1"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "this",
+              "bound": "this"
+            }
+          ]
+        },
+        {
+          "name": "removeFirstOccurrence",
+          "descriptor": "(Ljava/lang/Object;)Z",
+          "static": "false",
+          "modifies": ["this"],
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "this",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "lowerSize": [
+            {
+              "pos": "this",
+              "bound": "this - arg0"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "this",
+              "bound": "this"
+            }
+          ]
+        },
+        {
+          "name": "removeLast",
+          "descriptor": "()Ljava/lang/Object;",
+          "static": "false",
+          "modifies": ["this"],
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "1",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "lowerSize": [
+            {
+              "pos": "this",
+              "bound": "1"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "this",
+              "bound": "this"
+            }
+          ]
+        },
+        {
+          "name": "removeLastOccurrence",
+          "descriptor": "(Ljava/lang/Object;)Z",
+          "static": "false",
+          "modifies": ["this"],
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "this",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "lowerSize": [
+            {
+              "pos": "this",
+              "bound": "this - arg0"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "this",
+              "bound": "this"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

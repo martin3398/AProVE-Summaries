@@ -1,0 +1,33 @@
+{
+  "summaries": [
+    {
+      "class": "Diff",
+      "methods": [
+        {
+          "name": "dif",
+          "descriptor": "([I[I[I)V",
+          "static": "true",
+          "modifies": ["arg2"],
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "arg0^2 + arg1^2",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "lowerSize": [
+            {
+              "pos": "arg2",
+              "bound": "1"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "arg2",
+              "bound": "arg0 + arg1 + arg2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

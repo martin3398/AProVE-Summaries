@@ -1,0 +1,59 @@
+{
+  "summaries": [
+    {
+      "class": "MinusMin",
+      "methods": [
+        {
+          "name": "min",
+          "descriptor": "(II)I",
+          "static": "true",
+          "cases": [
+            {
+              "predicate": {
+                "type": ">",
+                "var0": "arg0",
+                "var1": "arg1"
+              },
+              "complexity": {
+                "lowerTime": "1",
+                "upperTime": "1",
+                "lowerSpace": "1",
+                "upperSpace": "1"
+              },
+              "lowerSize": [
+                {
+                  "pos": "ret",
+                  "bound": "arg1"
+                }
+              ],
+              "upperSize": [
+                {
+                  "pos": "ret",
+                  "bound": "arg1"
+                }
+              ]
+            }
+          ],
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "1",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "lowerSize": [
+            {
+              "pos": "ret",
+              "bound": "arg0"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "ret",
+              "bound": "arg0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

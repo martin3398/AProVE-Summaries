@@ -1,0 +1,32 @@
+{
+  "summaries": [
+    {
+      "class": "Init",
+      "methods": [
+        {
+          "name": "m",
+          "descriptor": "()V",
+          "static": "false",
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "inf",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          }
+        },
+        {
+          "name": "n",
+          "descriptor": "()V",
+          "static": "false",
+          "modifies": ["env"],
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "1",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          }
+        }
+      ]
+    }
+  ]
+}

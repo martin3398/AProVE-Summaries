@@ -1,0 +1,146 @@
+{
+  "summaries": [
+    {
+      "class": "List",
+      "methods": [
+        {
+          "name": "reverse",
+          "descriptor": "(LList;)V",
+          "static": "true",
+          "modifies": ["arg0"],
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "arg0",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "lowerSize": [
+            {
+              "pos": "arg0",
+              "bound": "arg0"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "arg0",
+              "bound": "arg0"
+            }
+          ]
+        },
+        {
+          "name": "createCycle",
+          "descriptor": "(I)LList;",
+          "static": "true",
+          "complexity": {
+            "lowerTime": "arg0",
+            "upperTime": "arg0",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "resultingPredicates": {
+                "cyclic": {
+                  "ret": ["List.n"]
+                },
+                "nonTree": ["ret"]
+              },
+          "lowerSize": [
+            {
+              "pos": "ret",
+              "bound": "arg0"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "ret",
+              "bound": "arg0"
+            }
+          ]
+        },
+        {
+          "name": "createPanhandleList",
+          "descriptor": "(II)LList;",
+          "static": "true",
+          "complexity": {
+            "lowerTime": "arg0 + arg1",
+            "upperTime": "arg0 + arg1",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "resultingPredicates": {
+                "cyclic": {
+                  "ret": ["List.n"]
+                },
+                "nonTree": ["ret"]
+              },
+          "lowerSize": [
+            {
+              "pos": "ret",
+              "bound": "arg0 + arg1"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "ret",
+              "bound": "arg0 + arg1"
+            }
+          ]
+        },
+        {
+          "name": "createList",
+          "descriptor": "(ILList;)LList;",
+          "static": "true",
+          "cases": [
+            {
+              "predicate": {
+                "type": "cyclic",
+                "var0": "arg1"
+              },
+              "complexity": {
+                "lowerTime": "arg0",
+                "upperTime": "arg0",
+                "lowerSpace": "1",
+                "upperSpace": "1"
+              },
+              "resultingPredicates": {
+                "cyclic": {
+                  "ret": []
+                },
+                "nonTree": ["ret"]
+              },
+              "lowerSize": [
+                {
+                  "pos": "ret",
+                  "bound": "arg0 + arg1"
+                }
+              ],
+              "upperSize": [
+                {
+                  "pos": "ret",
+                  "bound": "arg0 + arg1"
+                }
+              ]
+            }
+          ],
+          "complexity": {
+            "lowerTime": "arg0",
+            "upperTime": "arg0",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "lowerSize": [
+            {
+              "pos": "ret",
+              "bound": "arg0 + arg1"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "ret",
+              "bound": "arg0 + arg1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "summaries": [
+    {
+      "class": "CyclicalListDuplicate",
+      "methods": [
+        {
+          "name": "duplicate",
+          "descriptor": "()V",
+          "static": "false",
+          "cases": [
+            {
+              "predicate": {
+                "type": "cyclic",
+                "var0": "this"
+              },
+              "modifies": ["this"],
+              "complexity": {
+                "lowerTime": "1",
+                "upperTime": "inf",
+                "lowerSpace": "1",
+                "upperSpace": "1"
+              },
+              "lowerSize": [
+                {
+                  "pos": "this",
+                  "bound": "this*2"
+                }
+              ],
+              "upperSize": [
+                {
+                  "pos": "this",
+                  "bound": "this*2"
+                }
+              ]
+            }
+          ],
+          "modifies": ["this"],
+          "complexity": {
+            "lowerTime": "this",
+            "upperTime": "this",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "lowerSize": [
+            {
+              "pos": "this",
+              "bound": "this*2"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "this",
+              "bound": "this*2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

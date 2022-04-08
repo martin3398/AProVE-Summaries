@@ -1,0 +1,20 @@
+{
+  "summaries": [
+    {
+      "class": "example_2.Test",
+      "methods": [
+        {
+          "name": "divBy",
+          "descriptor": "(I)I",
+          "static": "true",
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "arg0",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+        }
+      ]
+    }
+  ]
+}

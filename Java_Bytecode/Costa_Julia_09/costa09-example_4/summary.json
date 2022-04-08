@@ -1,0 +1,21 @@
+{
+  "summaries": [
+    {
+      "class": "example_4.Test",
+      "methods": [
+        {
+          "name": "exampleMethods",
+          "descriptor": "(Lexample_4/ExamplesCont;Lexample_4/Examples;)V",
+          "static": "false",
+          "modifies": ["arg0"],
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "arg0",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+        }
+      ]
+    }
+  ]
+}

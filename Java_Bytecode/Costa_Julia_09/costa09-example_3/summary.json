@@ -1,0 +1,20 @@
+{
+  "summaries": [
+    {
+      "class": "example_3.Test",
+      "methods": [
+        {
+          "name": "m",
+          "descriptor": "(I)V",
+          "static": "false",
+          "complexity": {
+            "lowerTime": "arg0 - this + 1",
+            "upperTime": "arg0 - this + 1",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+        }
+      ]
+    }
+  ]
+}

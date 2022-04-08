@@ -1,0 +1,20 @@
+{
+  "summaries": [
+    {
+      "class": "EquationSystem",
+      "methods": [
+        {
+          "name": "diagonalize",
+          "descriptor": "()Z",
+          "static": "false",
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "this^3",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          }
+        }
+      ]
+    }
+  ]
+}

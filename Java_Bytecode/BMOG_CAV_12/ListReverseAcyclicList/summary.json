@@ -1,0 +1,101 @@
+{
+  "summaries": [
+    {
+      "class": "List",
+      "methods": [
+        {
+          "name": "reverse",
+          "descriptor": "(LList;)V",
+          "static": "true",
+          "modifies": ["arg0"],
+          "cases": [
+            {
+              "predicate": {
+                "type": "cyclic",
+                "var0": "arg0"
+              },
+              "complexity": {
+                "lowerTime": "1",
+                "upperTime": "inf",
+                "lowerSpace": "1",
+                "upperSpace": "1"
+              }
+            }
+          ],
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "arg0",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "lowerSize": [
+            {
+              "pos": "arg0",
+              "bound": "arg0"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "arg0",
+              "bound": "arg0"
+            }
+          ]
+        },
+        {
+          "name": "createList",
+          "descriptor": "(ILList;)LList;",
+          "static": "true",
+          "cases": [
+            {
+              "predicate": {
+                "type": "cyclic",
+                "var0": "arg1"
+              },
+              "complexity": {
+                "lowerTime": "arg0",
+                "upperTime": "arg0",
+                "lowerSpace": "1",
+                "upperSpace": "1"
+              },
+              "resultingPredicates": {
+                "cyclic": {
+                  "ret": []
+                }
+              },
+              "lowerSize": [
+                {
+                  "pos": "ret",
+                  "bound": "arg0 + arg1"
+                }
+              ],
+              "upperSize": [
+                {
+                  "pos": "ret",
+                  "bound": "arg0 + arg1"
+                }
+              ]
+            }
+          ],
+          "complexity": {
+            "lowerTime": "arg0",
+            "upperTime": "arg0",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "lowerSize": [
+            {
+              "pos": "ret",
+              "bound": "arg0 + arg1"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "ret",
+              "bound": "arg0 + arg1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

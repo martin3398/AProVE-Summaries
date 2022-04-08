@@ -1,0 +1,33 @@
+{
+  "summaries": [
+    {
+      "class": "CountMetaList",
+      "methods": [
+        {
+          "name": "countMetaList",
+          "descriptor": "(LList;)I",
+          "static": "true",
+          "modifies": ["arg0"],
+          "complexity": {
+            "lowerTime": "arg0",
+            "upperTime": "arg0",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "lowerSize": [
+            {
+              "pos": "arg0",
+              "bound": "arg0"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "arg0",
+              "bound": "arg0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "summaries": [
+    {
+      "class": "CyclicAnalysis.CyclicAnalysis",
+      "methods": [
+        {
+          "name": "length",
+          "descriptor": "()I",
+          "static": "false",
+          "cases": [
+            {
+              "predicate": {
+                "type": "cyclic",
+                "var0": "this"
+              },
+              "complexity": {
+                "lowerTime": "this",
+                "upperTime": "inf",
+                "lowerSpace": "1",
+                "upperSpace": "1"
+              }
+            }
+          ],
+          "complexity": {
+            "lowerTime": "this",
+            "upperTime": "this",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          }
+        },
+        {
+          "name": "appendNewCyclicList",
+          "descriptor": "(I)V",
+          "static": "false",
+          "modifies": ["this"],
+          "complexity": {
+            "lowerTime": "arg0",
+            "upperTime": "arg0",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "resultingPredicates": {
+            "cyclic": {
+              "this": ["CyclicAnalysis.field"]
+            },
+            "nonTree": ["this"]
+          },
+          "upperSize": [
+            {
+              "pos": "this",
+              "bound": "arg0"
+            }
+          ],
+          "lowerSize": [
+            {
+              "pos": "this",
+              "bound": "arg0"
+            }
+          ]
+        },
+        {
+          "name": "appendNewList",
+          "descriptor": "(I)LCyclicAnalysis/CyclicAnalysis;",
+          "static": "false",
+          "modifies": ["this"],
+          "complexity": {
+            "lowerTime": "arg0",
+            "upperTime": "arg0",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "resultingPredicates": {
+            "join": [
+              ["this", "ret"]
+            ]
+          },
+          "removedPredicates": {
+            "cyclic": {
+              "this": ["CyclicAnalysis.field"]
+            },
+            "nonTree": ["this"]
+          },
+          "upperSize": [
+            {
+              "pos": "this",
+              "bound": "arg0"
+            }
+          ],
+          "lowerSize": [
+            {
+              "pos": "this",
+              "bound": "arg0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

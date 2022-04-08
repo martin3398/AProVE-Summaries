@@ -1,0 +1,20 @@
+{
+  "summaries": [
+    {
+      "class": "MirrorTree",
+      "methods": [
+        {
+          "name": "mirror",
+          "descriptor": "(LTree;)V",
+          "static": "true",
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "arg0",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "summaries": [
+    {
+      "class": "javaUtilEx.LinkedList",
+      "methods": [
+        {
+          "name": "addFirst",
+          "descriptor": "(Ljava/lang/Object;)V",
+          "static": "false",
+          "modifies": ["this"],
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "1",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "lowerSize": [
+            {
+              "pos": "this",
+              "bound": "this + arg0"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "this",
+              "bound": "this + arg0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

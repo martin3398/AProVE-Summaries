@@ -1,0 +1,20 @@
+{
+  "summaries": [
+    {
+      "class": "Take",
+      "methods": [
+        {
+          "name": "take",
+          "descriptor": "(ILMyIterator;)[I",
+          "static": "true",
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "arg0",
+            "lowerSpace": "arg0",
+            "upperSpace": "arg0"
+          }
+        }
+      ]
+    }
+  ]
+}

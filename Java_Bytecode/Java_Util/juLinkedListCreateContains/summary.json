@@ -1,0 +1,198 @@
+{
+  "summaries": [
+    {
+      "class": "javaUtilEx.AbstractCollection",
+      "methods": [
+        {
+          "name": "addAll",
+          "descriptor": "(LjavaUtilEx/Collection;)Z",
+          "static": "false",
+          "modifies": ["this"],
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "arg0",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "lowerSize": [
+            {
+              "pos": "this",
+              "bound": "this + arg0"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "this",
+              "bound": "this + arg0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "javaUtilEx.AbstractSequentialList",
+      "methods": [
+        {
+          "name": "addAll",
+          "descriptor": "(ILjavaUtilEx/Collection;)Z",
+          "static": "false",
+          "modifies": ["this"],
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "arg0 + arg1",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "lowerSize": [
+            {
+              "pos": "this",
+              "bound": "this + arg1"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "this",
+              "bound": "this + arg1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "javaUtilEx.LinkedList",
+      "methods": [
+        {
+          "name": "addFirst",
+          "descriptor": "(Ljava/lang/Object;)V",
+          "static": "false",
+          "modifies": ["this"],
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "1",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "lowerSize": [
+            {
+              "pos": "this",
+              "bound": "this + arg0"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "this",
+              "bound": "this + arg0"
+            }
+          ]
+        },
+        {
+          "name": "addLast",
+          "descriptor": "(Ljava/lang/Object;)V",
+          "static": "false",
+          "modifies": ["this"],
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "1",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "lowerSize": [
+            {
+              "pos": "this",
+              "bound": "this + arg0"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "this",
+              "bound": "this + arg0"
+            }
+          ]
+        },
+        {
+          "name": "add",
+          "descriptor": "(Ljava/lang/Object;)Z",
+          "static": "false",
+          "modifies": ["this"],
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "1",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "lowerSize": [
+            {
+              "pos": "this",
+              "bound": "this + arg0"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "this",
+              "bound": "this + arg0"
+            }
+          ]
+        },
+        {
+          "name": "add",
+          "descriptor": "(ILjava/lang/Object;)V",
+          "static": "false",
+          "modifies": ["this"],
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "arg0",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "lowerSize": [
+            {
+              "pos": "this",
+              "bound": "this + arg1"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "this",
+              "bound": "this + arg1"
+            }
+          ]
+        },
+        {
+          "name": "clear",
+          "descriptor": "()V",
+          "static": "false",
+          "modifies": ["this"],
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "this",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "lowerSize": [
+            {
+              "pos": "this",
+              "bound": "1"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "this",
+              "bound": "this"
+            }
+          ]
+        },
+        {
+          "name": "contains",
+          "descriptor": "(Ljava/lang/Object;)Z",
+          "static": "false",
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "this",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          }
+        }
+      ]
+    }
+  ]
+}

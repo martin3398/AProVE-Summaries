@@ -1,0 +1,33 @@
+{
+  "summaries": [
+    {
+      "class": "DuplicateNodes",
+      "methods": [
+        {
+          "name": "randomlyDuplicate",
+          "descriptor": "(LTree;)V",
+          "static": "true",
+          "modifies": ["arg0"],
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "arg0",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "lowerSize": [
+            {
+              "pos": "arg0",
+              "bound": "arg0"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "arg0",
+              "bound": "arg0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

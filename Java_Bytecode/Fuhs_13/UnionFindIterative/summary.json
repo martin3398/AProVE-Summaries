@@ -1,0 +1,94 @@
+{
+  "summaries": [
+    {
+      "class": "UnionFindIterative",
+      "methods": [
+        {
+          "name": "find",
+          "descriptor": "()LUnionFindIterative;",
+          "static": "false",
+          "complexity": {
+            "lowerTime": "this",
+            "upperTime": "this",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "lowerSize": [
+            {
+              "pos": "ret",
+              "bound": "1"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "ret",
+              "bound": "this"
+            }
+          ],
+          "resultingPredicates": {
+            "join": [["this", "ret"]],
+            "mayequal": [["this", "ret"]]
+          }
+        },
+        {
+          "name": "union",
+          "descriptor": "(LUnionFindIterative;)V",
+          "static": "false",
+          "modifies": ["this"],
+          "complexity": {
+            "lowerTime": "this + arg0",
+            "upperTime": "this + arg0",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "lowerSize": [
+            {
+              "pos": "this",
+              "bound": "this + arg0"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "this",
+              "bound": "this + arg0"
+            }
+          ],
+          "resultingPredicates": {
+            "join": [["this", "arg0"]],
+            "mayequal": [["this", "arg0"]]
+          }
+        },
+        {
+          "name": "makeSet",
+          "descriptor": "()V",
+          "static": "false",
+          "modifies": ["this"],
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "1",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "lowerSize": [
+            {
+              "pos": "this",
+              "bound": "this"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "this",
+              "bound": "this"
+            }
+          ],
+          "resultingPredicates": {
+            "cyclic": {
+              "this": ["UnionFindIterative.parent"]
+            },
+            "nonTree": ["this"]
+          }
+        }
+      ]
+    }
+  ]
+}

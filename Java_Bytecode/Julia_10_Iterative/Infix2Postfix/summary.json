@@ -1,0 +1,32 @@
+{
+  "summaries": [
+    {
+      "class": "Infix2Postfix",
+      "methods": [
+        {
+          "name": "toPostfix",
+          "descriptor": "(LLinkedList;)LLinkedList;",
+          "static": "true",
+          "complexity": {
+            "lowerTime": "arg0",
+            "upperTime": "arg0",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "lowerSize": [
+            {
+              "pos": "ret",
+              "bound": "arg0"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "ret",
+              "bound": "arg0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

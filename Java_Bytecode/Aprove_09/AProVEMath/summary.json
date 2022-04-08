@@ -1,0 +1,35 @@
+{
+  "summaries": [
+    {
+      "class": "AProVEMath",
+      "methods": [
+        {
+          "name": "power",
+          "descriptor": "(II)I",
+          "static": "true",
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "arg1",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "cases": [
+            {
+              "predicate": {
+                "type": "=",
+                "var0": "arg0",
+                "var1": "2"
+              },
+              "complexity": {
+                "lowerTime": "1",
+                "upperTime": "1",
+                "lowerSpace": "1",
+                "upperSpace": "1"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

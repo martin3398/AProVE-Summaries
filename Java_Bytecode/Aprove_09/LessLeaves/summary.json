@@ -1,0 +1,65 @@
+{
+  "summaries": [
+    {
+      "class": "LessLeaves",
+      "methods": [
+        {
+          "name": "append",
+          "descriptor": "(LTree;LTree;)LTree;",
+          "static": "true",
+          "modifies": ["arg0"],
+          "complexity": {
+            "lowerTime": "arg0",
+            "upperTime": "arg0",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "lowerSize": [
+            {
+              "pos": "ret",
+              "bound": "arg0 + arg1"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "ret",
+              "bound": "arg0 + arg1"
+            }
+          ]
+        },
+        {
+          "name": "less_leaves",
+          "descriptor": "(LTree;LTree;)Z",
+          "static": "true",
+          "modifies": ["arg0", "arg1"],
+          "complexity": {
+            "lowerTime": "arg0 + arg1",
+            "upperTime": "arg0 + arg1",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "lowerSize": [
+            {
+              "pos": "arg0",
+              "bound": "arg0"
+            },
+            {
+              "pos": "arg1",
+              "bound": "arg1"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "arg0",
+              "bound": "arg0"
+            },
+            {
+              "pos": "arg1",
+              "bound": "arg1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

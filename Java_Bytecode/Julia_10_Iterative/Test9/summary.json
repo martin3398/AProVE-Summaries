@@ -1,0 +1,19 @@
+{
+  "summaries": [
+    {
+      "class": "Test9",
+      "methods": [
+        {
+          "name": "test",
+          "descriptor": "(I)V",
+          "static": "true",
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "arg0",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          }        }
+      ]
+    }
+  ]
+}

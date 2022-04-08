@@ -1,0 +1,42 @@
+{
+  "summaries": [
+    {
+      "class": "Distances",
+      "methods": [
+        {
+          "name": "levenshtein",
+          "descriptor": "(LMyString;LMyString;)I",
+          "static": "true",
+          "complexity": {
+            "lowerTime": "arg0 + arg1",
+            "upperTime": "arg0 + arg1",
+            "lowerSpace": "arg0^2 + arg1^2",
+            "upperSpace": "arg0^2 + arg1^2"
+          },
+        },
+        {
+          "name": "hamming",
+          "descriptor": "(LMyString;LMyString;)I",
+          "static": "true",
+          "complexity": {
+            "lowerTime": "arg0 + arg1",
+            "upperTime": "arg0 + arg1",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+        },
+        {
+          "name": "jaro",
+          "descriptor": "(LMyString;LMyString;)I",
+          "static": "true",
+          "complexity": {
+            "lowerTime": "arg0^2 + arg1^2",
+            "upperTime": "arg0^2 + arg1^2",
+            "lowerSpace": "arg0 + arg1",
+            "upperSpace": "arg0 + arg1"
+          },
+        }
+      ]
+    }
+  ]
+}

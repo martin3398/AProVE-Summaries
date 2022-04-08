@@ -1,0 +1,46 @@
+{
+  "summaries": [
+    {
+      "class": "IntList",
+      "methods": [
+        {
+          "name": "nth",
+          "descriptor": "(ILIntList;)I",
+          "static": "true",
+          "cases": [
+            {
+              "predicate": {
+                "type": "null",
+                "var0": "arg0"
+              },
+              "complexity": {
+                "lowerTime": "1",
+                "upperTime": "1",
+                "lowerSpace": "1",
+                "upperSpace": "1"
+              },
+              "lowerSize": [
+                {
+                  "pos": "ret",
+                  "bound": "0"
+                }
+              ],
+              "upperSize": [
+                {
+                  "pos": "ret",
+                  "bound": "0"
+                }
+              ]
+            }
+          ],
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "arg0",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          }
+        }
+      ]
+    }
+  ]
+}

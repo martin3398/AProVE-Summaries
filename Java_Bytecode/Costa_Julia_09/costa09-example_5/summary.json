@@ -1,0 +1,35 @@
+{
+  "summaries": [
+    {
+      "class": "example_5.Loops3",
+      "methods": [
+        {
+          "name": "m",
+          "descriptor": "(ILexample_5/Loops3;)V",
+          "static": "false",
+          "cases": [
+            {
+              "predicate": {
+                "type": "=?=",
+                "var0": "this",
+                "var1": "arg1"
+              },
+              "complexity": {
+                "lowerTime": "1",
+                "upperTime": "inf",
+                "lowerSpace": "1",
+                "upperSpace": "1"
+              }
+            }
+          ],
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "arg0 + arg1",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          }
+        }
+      ]
+    }
+  ]
+}

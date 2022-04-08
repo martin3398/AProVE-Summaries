@@ -1,0 +1,20 @@
+{
+  "summaries": [
+    {
+      "class": "List2",
+      "methods": [
+        {
+          "name": "visit",
+          "descriptor": "(LList2;)V",
+          "static": "true",
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "arg0",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          }
+        }
+      ]
+    }
+  ]
+}

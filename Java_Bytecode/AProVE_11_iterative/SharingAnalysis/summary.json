@@ -1,0 +1,89 @@
+{
+  "summaries": [
+    {
+      "class": "SharingAnalysis.SharingAnalysis",
+      "methods": [
+        {
+          "name": "appendNewList",
+          "descriptor": "(I)LSharingAnalysis/SharingAnalysis;",
+          "static": "false",
+          "modifies": ["this"],
+          "complexity": {
+            "lowerTime": "arg0",
+            "upperTime": "arg0",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "resultingPredicates": {
+            "join": [
+              ["this", "ret"]
+            ]
+          },
+          "upperSize": [
+            {
+              "pos": "this",
+              "bound": "arg0"
+            },
+            {
+              "pos": "ret",
+              "bound": "1"
+            }
+          ],
+          "lowerSize": [
+            {
+              "pos": "this",
+              "bound": "arg0"
+            },
+            {
+              "pos": "ret",
+              "bound": "1"
+            }
+          ],
+          "removedPredicates": {
+            "cyclic": {
+              "this": ["SharingAnalysis.SharingAnalysis.field"]
+            }
+          }
+        },
+        {
+          "name": "copy",
+          "descriptor": "(LSharingAnalysis/SharingAnalysis;LSharingAnalysis/SharingAnalysis;)V",
+          "static": "true",
+          "cases": [
+            {
+              "predicate": {
+                "type": "cyclic",
+                "var0": "arg0"
+              },
+              "complexity": {
+                "lowerTime": "arg0",
+                "upperTime": "inf",
+                "lowerSpace": "1",
+                "upperSpace": "1"
+              }
+            }
+          ],
+          "modifies": ["arg1"],
+          "complexity": {
+            "lowerTime": "arg0",
+            "upperTime": "arg0",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "upperSize": [
+            {
+              "pos": "arg1",
+              "bound": "arg0"
+            }
+          ],
+          "lowerSize": [
+            {
+              "pos": "arg1",
+              "bound": "arg0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

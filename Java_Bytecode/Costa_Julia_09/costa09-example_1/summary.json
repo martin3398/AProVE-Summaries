@@ -1,0 +1,71 @@
+{
+  "summaries": [
+    {
+      "class": "example_1.Test",
+      "methods": [
+        {
+          "name": "add",
+          "descriptor": "(ILexample_1/A;)I",
+          "static": "false",
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "arg0",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+        }
+      ]
+    },
+    {
+      "class": "example_1.A",
+      "methods": [
+        {
+          "name": "incr",
+          "descriptor": "(I)V",
+          "static": "false",
+          "modifies": ["this"],
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "1",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+        }
+      ]
+    },
+    {
+      "class": "example_1.B",
+      "methods": [
+        {
+          "name": "incr",
+          "descriptor": "(I)V",
+          "static": "false",
+          "modifies": ["this"],
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "1",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+        }
+      ]
+    },
+    {
+      "class": "example_1.C",
+      "methods": [
+        {
+          "name": "incr",
+          "descriptor": "(I)V",
+          "static": "false",
+          "modifies": ["this"],
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "1",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+        }
+      ]
+    }
+  ]
+}

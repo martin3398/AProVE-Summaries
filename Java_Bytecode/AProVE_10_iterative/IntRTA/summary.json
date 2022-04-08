@@ -1,0 +1,21 @@
+{
+  "summaries": [
+    {
+      "class": "IntRTA",
+      "methods": [
+        {
+          "name": "count",
+          "descriptor": "(LIntRTA;LIntRTA;)V",
+          "static": "true",
+          "modifies": ["arg0"],
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "arg0 + arg1",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          }
+        }
+      ]
+    }
+  ]
+}

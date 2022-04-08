@@ -1,0 +1,21 @@
+{
+  "summaries": [
+    {
+      "class": "Sharing",
+      "methods": [
+        {
+          "name": "iter",
+          "descriptor": "(LSharing;)V",
+          "static": "false",
+          "modifies": ["arg0"],
+          "complexity": {
+            "lowerTime": "this",
+            "upperTime": "this",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "summaries": [
+    {
+      "class": "CountUpRound",
+      "methods": [
+        {
+          "name": "round",
+          "descriptor": "(I)I",
+          "static": "true",
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "1",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          }
+        }
+      ]
+    }
+  ]
+}

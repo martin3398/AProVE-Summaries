@@ -1,0 +1,54 @@
+{
+  "summaries": [
+    {
+      "class": "CyclicList",
+      "methods": [
+        {
+          "name": "create",
+          "descriptor": "(I)LCyclicList;",
+          "static": "true",
+          "complexity": {
+            "lowerTime": "arg0",
+            "upperTime": "arg0",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "lowerSize": [
+            {
+              "pos": "ret",
+              "bound": "arg0"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "ret",
+              "bound": "arg0"
+            }
+          ],
+          "resultingPredicates": {
+            "cyclic": {
+              "ret": ["CyclicList.next"]
+            },
+            "nonTree": ["ret"]
+          }
+        },
+        {
+          "name": "get",
+          "descriptor": "(I)LCyclicList;",
+          "static": "false",
+          "complexity": {
+            "lowerTime": "arg0",
+            "upperTime": "arg0",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+          "resultingPredicates": {
+            "join": [
+              ["this", "ret"]
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "summaries": [
+    {
+      "class": "TriTas",
+      "methods": [
+        {
+          "name": "HeapSort",
+          "descriptor": "()V",
+          "static": "true",
+          "modifies": ["env"],
+          "complexity": {
+            "lowerTime": "env^2",
+            "upperTime": "env^2",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          }
+        }
+      ]
+    }
+  ]
+}

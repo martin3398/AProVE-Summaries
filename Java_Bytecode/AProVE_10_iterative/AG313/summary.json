@@ -1,0 +1,20 @@
+{
+  "summaries": [
+    {
+      "class": "AG313",
+      "methods": [
+        {
+          "name": "quot",
+          "descriptor": "(II)I",
+          "static": "true",
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "arg0",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "summaries": [
+    {
+      "class": "KnapsackDP",
+      "methods": [
+        {
+          "name": "SolveDP",
+          "descriptor": "()V",
+          "static": "true",
+          "modifies": ["env"],
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "env*env",
+            "lowerSpace": "env*env",
+            "upperSpace": "1"
+          },
+          "lowerSize": [
+            {
+              "pos": "env",
+              "bound": "env*env"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "env",
+              "bound": "env*env"
+            }
+          ]
+        },
+        {
+          "name": "Display",
+          "descriptor": "()V",
+          "static": "true",
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "env*env",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          }
+        },
+        {
+          "name": "InterpretArray",
+          "descriptor": "()V",
+          "static": "true",
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "env",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          }
+        }
+      ]
+    }
+  ]
+}

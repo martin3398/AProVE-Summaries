@@ -1,0 +1,20 @@
+{
+  "summaries": [
+    {
+      "class": "Loop",
+      "methods": [
+        {
+          "name": "test",
+          "descriptor": "(II)I",
+          "static": "true",
+          "complexity": {
+            "lowerTime": "1",
+            "upperTime": "1",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          },
+        }
+      ]
+    }
+  ]
+}

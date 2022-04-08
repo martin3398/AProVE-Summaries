@@ -1,0 +1,32 @@
+{
+  "summaries": [
+    {
+      "class": "FlattenTree",
+      "methods": [
+        {
+          "name": "flatten",
+          "descriptor": "(LTree;)LTree;",
+          "static": "true",
+          "complexity": {
+            "lowerTime": "arg0",
+            "upperTime": "arg0",
+            "lowerSpace": "arg0",
+            "upperSpace": "arg0"
+          },
+          "lowerSize": [
+            {
+              "pos": "ret",
+              "bound": "arg0"
+            }
+          ],
+          "upperSize": [
+            {
+              "pos": "ret",
+              "bound": "arg0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

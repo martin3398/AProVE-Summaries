@@ -1,0 +1,20 @@
+{
+  "summaries": [
+    {
+      "class": "Test2",
+      "methods": [
+        {
+          "name": "createList",
+          "descriptor": "(III)V",
+          "static": "true",
+          "complexity": {
+            "lowerTime": "arg0 + arg1 + 3 * arg2",
+            "upperTime": "arg0 + arg1 + 3 * arg2",
+            "lowerSpace": "1",
+            "upperSpace": "1"
+          }
+        }
+      ]
+    }
+  ]
+}
